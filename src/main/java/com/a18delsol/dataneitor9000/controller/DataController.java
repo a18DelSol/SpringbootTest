@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DataController {
 
-    @GetMapping("/test")
+    @GetMapping("/")
     public String test() {
         return "it's funny how one verse can fuck up the game";
     }
